@@ -1,0 +1,38 @@
+{
+  "name": "transit-headway-core",
+  "version": "1.0.0",
+  "description": "High-performance TypeScript library for calculating transit headways, service intervals, excess wait times, and timetable regularity indices.",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test/headway.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivrajsinhzala/transit-headway-core.git"
+  },
+  "keywords": [
+    "transit",
+    "gtfs",
+    "headway",
+    "public-transportation",
+    "transit-data",
+    "schedule-analysis",
+    "excess-wait-time",
+    "bunching",
+    "gtfs-rt",
+    "mobility"
+  ],
+  "author": "Shivrajsinh Zala (https://github.com/shivrajsinhzala)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivrajsinhzala/transit-headway-core/issues"
+  },
+  "homepage": "https://headway.shivrajsinh.in",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
